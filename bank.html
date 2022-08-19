@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get money</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-12 font-semibold">Get Some<span
+                class="font-semibold text-violet-900">Mooooooney!!!!</span></h1>
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto py-6">
+                <div class="bg-sky-400 p-8 rounded-md h-48">
+                    <h1 class="text-3xl font-semibold text-white">Diposit</h1>
+                    <h2 class="text-5xl font-bold text-purple-200">$<span id ="current-Diposite">00</span></h2>
+                </div>
+
+                <div class="bg-purple-900 p-8 rounded-md h-48">
+                    <h1 class="text-3xl font-semibold text-white">Withdraw</h1>
+                    <h1 class="text-5xl font-bold text-purple-200">$00</h1>
+                </div>
+
+                <div class="bg-pink-500 p-8 rounded-md h-48">
+                    <h1 class="text-3xl font-semibold text-white">Balance</h1>
+                    <h2 class="text-5xl font-bold text-purple-200">$<span id ="ballance-Diposite">1200</span></h2>
+                </div>
+            </div>
+        </section>
+        <!-- *****input field start -->
+        <section class="mt-12">
+
+
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto py-6">
+                <div class="bg-cyan-800	 p-8 rounded-md h-100">
+                    <h1 class="text-3xl font-semibold text-white">Please Diposit</h1>
+                    <input class="block mb-4 w-7/12 p-2 rounded-md mt-4" type="text" name="" id="User-Deposite"
+                        placeholder="$ Add your Diposite Amount">
+                    <button id="btn-diposite-1" class="bg-fuchsia-500 text-2xl rounded-md px-4 py-3 text-white hover:bg-red-600 font-semibold">Diposite</button>
+                </div>
+
+
+                <div class="bg-red-900 p-8 rounded-md h-100">
+                    <h1 class="text-3xl font-semibold text-white">Please Withdraw</h1>
+                    <input class="block mb-4 w-7/12 p-2 rounded-md mt-4" type="text" name="" id="User-emaile"
+                        placeholder="$ Add your Withdraw Amount">
+                    <button id="btn-submit"
+                        class="bg-green-800	 text-2xl rounded-md px-4 py-3 text-white hover:bg-red-600 font-semibold">Withdraw</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/deposit.js"></script>
+</body>
+
+</html>
